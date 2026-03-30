@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^beta\.avralucasavin\.ro$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.beta\.avralucasavin\.ro$
+RewriteRule ^/?$ "http\:\/\/beta\.avralucasavin\.ro\/index\.html" [R=301,L]
+
