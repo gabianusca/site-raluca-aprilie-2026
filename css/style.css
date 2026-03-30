@@ -878,3 +878,11 @@ p.dropcap:first-child:first-letter {
       border: 1px solid white; }
       .block-16 .play-button:hover > span {
         color: #fff; }
+
+.brand-legal {
+  font-family: 'Playfair Display', serif;
+  font-style: italic; /* This gives you that "cursive feel" while staying readable */
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: none !important;
+}
